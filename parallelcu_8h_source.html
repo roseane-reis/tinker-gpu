@@ -29,7 +29,7 @@ MathJax.Hub.Config({
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Tinker9<span id="projectnumber">&#160;d4dfb2d (Sun Mar 26 21:17:44 2023 -0700)</span>
+   <div id="projectname">Tinker9<span id="projectnumber">&#160;8f2f589 (Sat May 2 13:59:12 2026 -0500)</span>
    </div>
   </td>
  </tr>
@@ -105,12 +105,18 @@ $(function() {
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="namespacetinker.html#a61009a97ec6b9ce8ce6e436bb36083a1">   21</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacetinker.html#a61009a97ec6b9ce8ce6e436bb36083a1">scaleArray_cu</a>(T* dst, T scal, <span class="keywordtype">size_t</span> nelem, <span class="keywordtype">int</span> queue);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>}</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="namespacetinker.html#a8382f9d457c15eeb03433eb77291fdca">   25</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacetinker.html#a8382f9d457c15eeb03433eb77291fdca">genMatMul_cu</a>(T* c, <span class="keyword">const</span> T* a, <span class="keyword">const</span> T* b, <span class="keywordtype">int</span> m, <span class="keywordtype">int</span> <a class="code hl_variable" href="group__ff.html#gad2e089162a2f11d8850f715592d9acdb">n</a>, <span class="keywordtype">int</span> k, </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">bool</span> transa, <span class="keywordtype">bool</span> transb, <span class="keyword">const</span> T *alpha, <span class="keyword">const</span> T *beta, <span class="keywordtype">int</span> queue);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>}</div>
+<div class="ttc" id="agroup__ff_html_gad2e089162a2f11d8850f715592d9acdb"><div class="ttname"><a href="group__ff.html#gad2e089162a2f11d8850f715592d9acdb">tinker::n</a></div><div class="ttdeci">int n</div><div class="ttdoc">Number of atoms padded by WARP_SIZE.</div></div>
 <div class="ttc" id="anamespacetinker_html"><div class="ttname"><a href="namespacetinker.html">tinker</a></div><div class="ttdef"><b>Definition:</b> testrt.h:9</div></div>
 <div class="ttc" id="anamespacetinker_html_a16e949a79dff900448f9f0b9c56dce06"><div class="ttname"><a href="namespacetinker.html#a16e949a79dff900448f9f0b9c56dce06">tinker::dotProd_cu</a></div><div class="ttdeci">void dotProd_cu(T *ans, const T *a, const T *b, size_t nelem, int queue)</div></div>
 <div class="ttc" id="anamespacetinker_html_a3f4f4f23915b38d785db993e1d008667"><div class="ttname"><a href="namespacetinker.html#a3f4f4f23915b38d785db993e1d008667">tinker::reduceSum2_cu</a></div><div class="ttdeci">void reduceSum2_cu(HT(&amp;h_ans)[HN], DPTR v, size_t nelem, int queue)</div></div>
 <div class="ttc" id="anamespacetinker_html_a54412f2299c4053909064cc6b9581752"><div class="ttname"><a href="namespacetinker.html#a54412f2299c4053909064cc6b9581752">tinker::reduceSumOnDevice_cu</a></div><div class="ttdeci">void reduceSumOnDevice_cu(T *, const T *, size_t, int)</div></div>
 <div class="ttc" id="anamespacetinker_html_a61009a97ec6b9ce8ce6e436bb36083a1"><div class="ttname"><a href="namespacetinker.html#a61009a97ec6b9ce8ce6e436bb36083a1">tinker::scaleArray_cu</a></div><div class="ttdeci">void scaleArray_cu(T *dst, T scal, size_t nelem, int queue)</div></div>
+<div class="ttc" id="anamespacetinker_html_a8382f9d457c15eeb03433eb77291fdca"><div class="ttname"><a href="namespacetinker.html#a8382f9d457c15eeb03433eb77291fdca">tinker::genMatMul_cu</a></div><div class="ttdeci">void genMatMul_cu(T *c, const T *a, const T *b, int m, int n, int k, bool transa, bool transb, const T *alpha, const T *beta, int queue)</div><div class="ttdoc">general matrix multiplication</div></div>
 <div class="ttc" id="anamespacetinker_html_aab26f1b137ef92ee75abe67b9edd17af"><div class="ttname"><a href="namespacetinker.html#aab26f1b137ef92ee75abe67b9edd17af">tinker::reduceSum2OnDevice_cu</a></div><div class="ttdeci">void reduceSum2OnDevice_cu(HT(&amp;)[HN], DPTR, size_t, int)</div></div>
 <div class="ttc" id="anamespacetinker_html_ac4be1fbdb827c4ffb405b4df1b22ee3b"><div class="ttname"><a href="namespacetinker.html#ac4be1fbdb827c4ffb405b4df1b22ee3b">tinker::reduceSum_cu</a></div><div class="ttdeci">T reduceSum_cu(const T *a, size_t nelem, int queue)</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -29,7 +29,7 @@ MathJax.Hub.Config({
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Tinker9<span id="projectnumber">&#160;d4dfb2d (Sun Mar 26 21:17:44 2023 -0700)</span>
+   <div id="projectname">Tinker9<span id="projectnumber">&#160;8f2f589 (Sat May 2 13:59:12 2026 -0500)</span>
    </div>
   </td>
  </tr>
@@ -100,7 +100,7 @@ $(function() {
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><a class="code hl_define" href="group__cpp__syntax.html#gad007fe0cc7bedd195c0642d4622daf81">TINKER_EXTERN</a> <a class="code hl_typedef" href="group__prec.html#ga705b733820a8480aac42d7dcb3bbd7e0">real</a>* <a class="code hl_variable" href="namespacetinker.html#ac8744872a645ff5dc6c68377b00e6123">bflx</a>;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><a class="code hl_define" href="group__cpp__syntax.html#gad007fe0cc7bedd195c0642d4622daf81">TINKER_EXTERN</a> <a class="code hl_typedef" href="group__prec.html#ga705b733820a8480aac42d7dcb3bbd7e0">real</a> (*<a class="code hl_variable" href="namespacetinker.html#a2d32c07a44010370578155cb72069329">aflx</a>)[2];</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><a class="code hl_define" href="group__cpp__syntax.html#gad007fe0cc7bedd195c0642d4622daf81">TINKER_EXTERN</a> <a class="code hl_typedef" href="group__prec.html#ga705b733820a8480aac42d7dcb3bbd7e0">real</a> (*<a class="code hl_variable" href="namespacetinker.html#ad4903b38687b6b63ab948c0ca43ee842">abflx</a>)[2];</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><a class="code hl_define" href="group__cpp__syntax.html#gad007fe0cc7bedd195c0642d4622daf81">TINKER_EXTERN</a> <span class="keywordtype">int</span>* <a class="code hl_variable" href="namespacetinker.html#aaef4f4656fe7ca1aa15426dace112b4f">atomic</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">// TINKER_EXTERN int* atomic;  // moved to atom.h, because nn terms need atomic numbers as well.</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><a class="code hl_define" href="group__cpp__syntax.html#gad007fe0cc7bedd195c0642d4622daf81">TINKER_EXTERN</a> int (*<a class="code hl_variable" href="namespacetinker.html#ae4cec338d0423b21bec43e732087c2fe">balist</a>)[2];</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><a class="code hl_define" href="group__cpp__syntax.html#gad007fe0cc7bedd195c0642d4622daf81">TINKER_EXTERN</a> <a class="code hl_typedef" href="group__prec.html#ga705b733820a8480aac42d7dcb3bbd7e0">real</a>* <a class="code hl_variable" href="namespacetinker.html#af0274920db56e1c6753a82578afa3f37">mono0</a>;</div>
@@ -191,7 +191,6 @@ $(function() {
 <div class="ttc" id="anamespacetinker_html_a9098ef5cc7e5b73f20ec8b6c9fde83d4"><div class="ttname"><a href="namespacetinker.html#a9098ef5cc7e5b73f20ec8b6c9fde83d4">tinker::mdwexclude_scale</a></div><div class="ttdeci">real(* mdwexclude_scale)[3]</div></div>
 <div class="ttc" id="anamespacetinker_html_a948490b5521569ee30a3fb3a6f684372"><div class="ttname"><a href="namespacetinker.html#a948490b5521569ee30a3fb3a6f684372">tinker::decfz</a></div><div class="ttdeci">real * decfz</div></div>
 <div class="ttc" id="anamespacetinker_html_aa18311598432bc89f01826cc72fe0eaa"><div class="ttname"><a href="namespacetinker.html#aa18311598432bc89f01826cc72fe0eaa">tinker::pval</a></div><div class="ttdeci">real * pval</div></div>
-<div class="ttc" id="anamespacetinker_html_aaef4f4656fe7ca1aa15426dace112b4f"><div class="ttname"><a href="namespacetinker.html#aaef4f4656fe7ca1aa15426dace112b4f">tinker::atomic</a></div><div class="ttdeci">int * atomic</div></div>
 <div class="ttc" id="anamespacetinker_html_ab106699c56e6cf40c99fc0b61de64b90"><div class="ttname"><a href="namespacetinker.html#ab106699c56e6cf40c99fc0b61de64b90">tinker::polinv</a></div><div class="ttdeci">real(* polinv)[3][3]</div></div>
 <div class="ttc" id="anamespacetinker_html_ab21a458dfcd2b1fed8dde27e4b6ea6ed"><div class="ttname"><a href="namespacetinker.html#ab21a458dfcd2b1fed8dde27e4b6ea6ed">tinker::kpep</a></div><div class="ttdeci">real * kpep</div></div>
 <div class="ttc" id="anamespacetinker_html_ab533e0b74b33735bc304157b110ae5e8"><div class="ttname"><a href="namespacetinker.html#ab533e0b74b33735bc304157b110ae5e8">tinker::lpep</a></div><div class="ttdeci">int * lpep</div></div>

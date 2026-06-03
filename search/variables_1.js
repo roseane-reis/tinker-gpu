@@ -23,6 +23,6 @@ var searchData=
   ['arraylength_20',['arrayLength',['../group__mdintg.html#a6a2c246714f8934db778298368174289',1,'tinker::IntegratorStaticData']]],
   ['atom_5feps_21',['atom_eps',['../namespacetinker.html#a9aa33cd06e6a306df5a3120ec0a776a2',1,'tinker']]],
   ['atom_5frad_22',['atom_rad',['../namespacetinker.html#a6ae422986fef64f5286c4e91c004e59b',1,'tinker']]],
-  ['atomic_23',['atomic',['../group__mdintg.html#a1bea515c1545c7ecaaae56598a64c36a',1,'tinker::IntegratorStaticData::atomic()'],['../namespacetinker.html#aaef4f4656fe7ca1aa15426dace112b4f',1,'tinker::atomic()']]],
+  ['atomic_23',['atomic',['../group__mdintg.html#a1bea515c1545c7ecaaae56598a64c36a',1,'tinker::IntegratorStaticData::atomic()'],['../group__ff.html#gaaef4f4656fe7ca1aa15426dace112b4f',1,'tinker::atomic()']]],
   ['atorunit_24',['atorunit',['../group__tors.html#ga7f99583e1208d843ec854e029d27c928',1,'tinker']]]
 ];

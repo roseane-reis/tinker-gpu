@@ -9,5 +9,6 @@ var searchData=
   ['buck_6',['BUCK',['../class_b_u_c_k.html',1,'']]],
   ['buffertraits_7',['BufferTraits',['../group__ff.html#structtinker_1_1v1_1_1_buffer_traits',1,'tinker::BufferTraits&lt; T, Nincr &gt;'],['../group__ff.html#structtinker_1_1v1_1_1_buffer_traits',1,'tinker::v1::BufferTraits&lt; T, Nincr &gt;']]],
   ['buffertraits_3c_20float_2c_20nincr_20_3e_8',['BufferTraits&lt; float, Nincr &gt;',['../group__ff.html#structtinker_1_1v1_1_1_buffer_traits_3_01float_00_01_nincr_01_4',1,'tinker::BufferTraits&lt; float, Nincr &gt;'],['../group__ff.html#structtinker_1_1v1_1_1_buffer_traits_3_01float_00_01_nincr_01_4',1,'tinker::v1::BufferTraits&lt; float, Nincr &gt;']]],
-  ['bussithermostat_9',['BussiThermostat',['../group__mdpt.html#classtinker_1_1_bussi_thermostat',1,'tinker']]]
+  ['bussibarostat_9',['BussiBarostat',['../group__mdpt.html#classtinker_1_1_bussi_barostat',1,'tinker']]],
+  ['bussithermostat_10',['BussiThermostat',['../group__mdpt.html#classtinker_1_1_bussi_thermostat',1,'tinker']]]
 ];

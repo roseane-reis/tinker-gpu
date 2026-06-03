@@ -29,7 +29,7 @@ MathJax.Hub.Config({
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Tinker9<span id="projectnumber">&#160;d4dfb2d (Sun Mar 26 21:17:44 2023 -0700)</span>
+   <div id="projectname">Tinker9<span id="projectnumber">&#160;8f2f589 (Sat May 2 13:59:12 2026 -0500)</span>
    </div>
   </td>
  </tr>
@@ -97,6 +97,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga6954d199f89c92bc0dda21617e7cb892"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__math.html#ga6954d199f89c92bc0dda21617e7cb892">tinker::symlusolve</a> (const T *aUpRowMajor, T *b)</td></tr>
 <tr class="memdesc:ga6954d199f89c92bc0dda21617e7cb892"><td class="mdescLeft">&#160;</td><td class="mdescRight">This subroutine uses the LU decomposition method to solve the linear system Ax = b, returning x in b. A is an n by n real symmetric matrix with its upper triangle (including the diagonal) stored by rows.  <a href="group__math.html#ga6954d199f89c92bc0dda21617e7cb892">More...</a><br /></td></tr>
 <tr class="separator:ga6954d199f89c92bc0dda21617e7cb892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2fd25fef431b84876d95a331ffa219d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:gad2fd25fef431b84876d95a331ffa219d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__math.html#gad2fd25fef431b84876d95a331ffa219d">tinker::matExp3</a> (T ans[3][3], T m[3][3], T t)</td></tr>
+<tr class="memdesc:gad2fd25fef431b84876d95a331ffa219d"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \exp(mt) \). Matrix m is a general 3 by 3 matrix. Matrices are stored in the row-major order (C-style).  <a href="group__math.html#gad2fd25fef431b84876d95a331ffa219d">More...</a><br /></td></tr>
+<tr class="separator:gad2fd25fef431b84876d95a331ffa219d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab4d61f47da0dd4d1334366ea1b17498f"><td class="memTemplParams" colspan="2">template&lt;class T , class T2 &gt; </td></tr>
 <tr class="memitem:gab4d61f47da0dd4d1334366ea1b17498f"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__math.html#gab4d61f47da0dd4d1334366ea1b17498f">tinker::maxOf</a> (T a, T2 b)</td></tr>
 <tr class="separator:gab4d61f47da0dd4d1334366ea1b17498f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1520,6 +1524,52 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Return true if and only if <code>val</code> is a power of 2. </p>
+
+</div>
+</div>
+<a id="gad2fd25fef431b84876d95a331ffa219d" name="gad2fd25fef431b84876d95a331ffa219d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad2fd25fef431b84876d95a331ffa219d">&#9670;&#160;</a></span>matExp3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void tinker::matExp3 </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>ans</em>[3][3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>m</em>[3][3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( \exp(mt) \). Matrix m is a general 3 by 3 matrix. Matrices are stored in the row-major order (C-style). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">ans</td><td>3 by 3 matrix for the result. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>3 by 3 matrix. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">t</td><td>Scalar to scale the matrix m. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
